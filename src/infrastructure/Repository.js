@@ -1,4 +1,4 @@
-export default class Repository{
+class Repository {
   constructor() {
     this.key = 'behappy-user';
   }
@@ -19,3 +19,5 @@ export default class Repository{
     }
   }
 }
+
+export default Repository;
