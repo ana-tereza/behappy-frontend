@@ -51,7 +51,7 @@ class App extends Component {
               });
             });
           }}
-          erro={msg => this.refs.toast.erro(msg) }
+          error={msg => this.refs.toast.error(msg) }
         />
       );
     }
